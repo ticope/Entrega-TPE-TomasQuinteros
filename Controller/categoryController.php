@@ -11,6 +11,7 @@ class categoryController
     private $model;
     private $view;
     private $authHelper;
+    private $shopModel;
 
     function __construct()
     {
