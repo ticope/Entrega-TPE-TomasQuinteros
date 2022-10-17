@@ -19,5 +19,5 @@
         </div>
     </form> 
 {/if}
-<script src="./js/comments.js"></script>
+
 {include file="templates/footer.tpl"}
