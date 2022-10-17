@@ -14,7 +14,7 @@ class categoryView
 
     function renderProductsByCategory($products, $category, $logged)
     {
-        var_dump("llego");
+     
         $this->smarty->assign('titulo', "Lista de productos: ");
         $this->smarty->assign('logged', $logged);
         $this->smarty->assign('categoria', $category);
