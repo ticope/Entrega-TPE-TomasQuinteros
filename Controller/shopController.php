@@ -40,7 +40,7 @@ class shopController {
             if ($_FILES['images']['type'] == "image/jpg" || $_FILES['images']['type'] == "image/jpeg" || $_FILES['images']['type'] == "image/png") {
             
             $this->model->uploadImage($id, $_FILES['images']);
-            var_dump("llego");
+            
             $this->showProduct($id);
         } else {
             $this->view->showError($logged);
